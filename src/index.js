@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import RegistartionForm from './RegistartionForm';
+import UpperLowerCase from './UpperLowerCase';
 // import { useState } from "react"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -83,6 +84,7 @@ setInterval(
      <HeaderComponent />
      <HeaderComponentUsingClass />
      <RegistartionForm />
+     <UpperLowerCase />
       {/* <CurrentTime />
       <Counter /> */}
       <Header>
